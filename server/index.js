@@ -17,7 +17,7 @@ const app = express()
 const PORT = process.env.PORT || 8000
 const allowedOrigins = [
     process.env.FRONTEND_URL,
-    process.env.FRONTEND_URL2
+    process.env.FRONTEND_URL2,
 ]
 
 //database connect
